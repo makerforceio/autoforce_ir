@@ -19,7 +19,7 @@ def main():
     output_ir = UInt8()
     output_vel = Transform()
     
-    sensor_gpio = [1,2,3,4,5,6,7,8]
+    sensor_gpio = [6,13,19,26,5,5,5,5]
     GPIO.setmode(GPIO.BOARD)
     
     for i in sensor_gpio:
