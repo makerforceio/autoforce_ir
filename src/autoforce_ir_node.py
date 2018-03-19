@@ -17,7 +17,7 @@ def main():
     raw = [0,0,0,0,0,0,0,0]
     output_ir = UInt8();
     output_vel = Transform();
-    scale_val = 1;
+    scale_val = -1;
 
     raw_pub = rospy.Publisher('autoforce/ir_raw', UInt8, queue_size=10)
     mov_pub = rospy.Publisher('autoforce/ir_mov', Transform, queue_size=10)
